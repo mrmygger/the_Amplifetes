@@ -122,3 +122,9 @@ article {
     grid-template-columns: 1fr 1fr;
     justify-content: center;
 }
+
+footer {
+    text-align: center;
+  }
+  
+
