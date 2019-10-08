@@ -132,9 +132,8 @@ footer {
 article section{
     justify-self: left;
     display: grid; 
-    grid-template-columns: auto auto;
-    column-width: auto;
-    padding: 3rem;
+    grid-template-columns: auto auto; /*Dette er for at få teksten tættere på billederne*/
+    padding: 3rem; /*mellemrum mellem hver section*/
    }
 
 h3 {
@@ -150,7 +149,7 @@ h3 {
 }
 
 #peter p, #tommy p, #henrik_j p, #henrik_k p{
-    padding-left: 1rem;
+    padding-left: 1rem; /*luft mellem tekst og billede*/
 }
 
 
