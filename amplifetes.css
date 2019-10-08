@@ -152,6 +152,10 @@ h3 {
     padding-left: 1rem; /*luft mellem tekst og billede*/
 }
 
-
-
+#our_fans {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column: 1 / 3;
+    justify-content: center;
+}
 
