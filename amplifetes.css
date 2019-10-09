@@ -149,17 +149,15 @@ h3 {
    border-radius: 0;
 }
 
-
-
-p.ticket {
+p.tickets {
     border-top: 1px dotted #999;
 }
 
-h2.ticket {
+h2.tickets {
     text-align: center;
 }
 
-li.ticket {
+li.tickets {
     display: flex;
     background-color: white;
     justify-content: right;
@@ -170,6 +168,6 @@ li.ticket {
     margin: auto;
 }  
 
-ul.ticket {
+ul.tickets {
     border-top: 1px dotted #999;   
 }
