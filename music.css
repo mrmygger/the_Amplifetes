@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+p {
+    color: white;
+}
+
+body {
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgb(117, 117, 117);
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+
+}
+
+nav {
+    justify-content: space-evenly;
+    grid-column: 1 / 4;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+.cart {
+    justify-self: end;
+}
+
+h1 {
+    justify-self: center;
+    color: white;
+}
+
+li {
+    background-color: white;
+    border-radius: 1rem;
+}
+
+.music_shop{
+display: grid;
+}
