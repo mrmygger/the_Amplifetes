@@ -69,8 +69,10 @@ h2 {
     grid-column: 1 / 2;
     justify-self: center;
     align-self: center;
+}
 
-#video4, #video2 {
+#video4, #video2 
+{
     grid-column: 2 / 3;
     justify-self: center;
     align-self: center;
