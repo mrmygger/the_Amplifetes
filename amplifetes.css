@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-p {
+p, p2 {
     color: white;
 }
 
@@ -149,30 +149,37 @@ h3 {
    border-radius: 0;
 }
 
-p.tickets {
-    border-top: 1px dotted #999;
+.tickets {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
-h2.tickets {
+.tickets h2 {
+grid-column: 1 / 4;
+}
+
+.tickets p2{
+    text-align: center;
+    align-self: center;
+}   
+
+.tickets p {
     text-align: center;
 }
 
-li.tickets {
-    display: flex;
-    background-color: white;
-    justify-content: right;
-    padding: 0;
-    justify-content: center;
-    width: 10rem;
-    grid-template-columns: 1fr;
-    margin: auto;
-    width: 7rem;
+.tickets li {
+    list-style: none;
+    text-align: center;
+    justify-items: end;
+    width: 7rem; 
     height: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
-}  
+    margin: auto;
+    
+}
 
-ul.tickets {
-    border-top: 1px dotted #999;   
+.tickets {
+    margin-bottom: 5rem;
 }
