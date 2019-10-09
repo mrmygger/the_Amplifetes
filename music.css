@@ -69,10 +69,10 @@ h2{
     grid-template-columns: 1fr 1fr 1fr;
     list-style: none;
     text-align: center;
-    justify-items: center;   
+    justify-items: center;
 }
 
-ul li {
+.buyknapper li {
     width: 10rem; 
     height: 2rem;
     
