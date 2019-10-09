@@ -103,7 +103,6 @@ section ul{
 #the_band {
     display: grid;
     grid-template-columns: 1fr 1fr;
-
 }
 
 article {
@@ -164,7 +163,6 @@ li.ticket {
     width: 10rem;
     grid-template-columns: 1fr;
     margin: auto;
-
 }  
 
 ul.ticket {
