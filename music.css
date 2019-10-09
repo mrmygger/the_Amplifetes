@@ -50,4 +50,30 @@ li {
 
 .music_shop{
 display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+justify-items: center;
+}
+
+h2{
+    grid-column: 1 / 4;
+    text-align: center; 
+}
+
+#album1 img, #album2 img, #album3 img{
+    height: 20rem;
+    width: 20rem;
+}
+
+.buy ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    list-style: none;
+    text-align: center;
+    justify-items: center;   
+}
+
+ul li {
+    width: 10rem; 
+    height: 2rem;
+    
 }
