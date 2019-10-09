@@ -48,9 +48,10 @@ li {
     border-radius: 1rem;
 }
 
+
 .music_shop{
 display: grid;
-grid-template-columns: 1fr 1fr 1fr;
+grid-template-columns: 33% 33% 33%;
 justify-items: center;
 }
 
@@ -66,14 +67,18 @@ h2{
 
 .buy ul {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 33% 33% 33%;
     list-style: none;
     text-align: center;
-    justify-items: center;
+    justify-items: left;    
+    justify-content: center;
 }
 
 .buyknapper li {
-    width: 10rem; 
+    width: 7rem; 
     height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
