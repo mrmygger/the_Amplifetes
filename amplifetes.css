@@ -160,12 +160,13 @@ li.ticket {
     background-color: white;
     justify-content: right;
     padding: 0;
-    justify-content: space-evenly;
+    justify-content: center;
+    width: 10rem;
+    grid-template-columns: 1fr;
+    margin: auto;
 
 }  
 
 ul.ticket {
     border-top: 1px dotted #999;   
 }
-
-
