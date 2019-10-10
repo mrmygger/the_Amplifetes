@@ -107,3 +107,7 @@ footer {
 img {
     size: 50%;
 } 
+
+footer ul, footer p {
+    margin-block-start: 0;
+}
