@@ -83,7 +83,8 @@ li {
 h2{
     grid-column: 1 / 4;
     text-align: center;
-    margin-block-end: 4rem 
+    margin-block-end: 4rem;
+    font-size: 3rem;
 }
 
 footer {
