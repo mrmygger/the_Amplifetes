@@ -37,7 +37,11 @@ header {
     background-repeat: no-repeat;
     background-repeat: round;
     padding-block-end: 2rem;
+    background-attachment: fixed;
+}
 
+header img {
+    margin-left: 1rem;
 }
 
 nav {
@@ -137,7 +141,7 @@ footer p {
 footer ul {
     padding-top: 8rem;
     padding-bottom: 1rem;
-    margin-block-start: 
+    margin-block-start: 0;
 }
 
 ul { 

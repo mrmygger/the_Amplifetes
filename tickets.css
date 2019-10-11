@@ -35,8 +35,12 @@ header {
     background-size: contain;
     background-repeat: no-repeat;
     background-repeat: round;
-    padding-block-end: 2rem;
+    padding-block-end: 1rem;
+    background-attachment: fixed;
+}
 
+header img {
+    margin-left: 1rem;
 }
 
 nav {

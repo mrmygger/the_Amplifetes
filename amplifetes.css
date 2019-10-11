@@ -38,6 +38,11 @@ header {
     background-repeat: no-repeat;
     background-repeat: round;
     padding-block-end: 2rem;
+    background-attachment: fixed;
+}
+
+header img {
+    margin-left: 1rem;
 }
 
 
@@ -150,7 +155,7 @@ section ul{
 #the_band {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding-bottom: 5rem;
+    padding-bottom: 3rem;
 }
 
 article {
@@ -258,3 +263,6 @@ ul {
     margin-bottom: 4rem;
 }
 
+article p {
+    margin-top: 0;
+}
